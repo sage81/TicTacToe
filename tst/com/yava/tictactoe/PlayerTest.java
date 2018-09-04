@@ -1,19 +1,17 @@
 package com.yava.tictactoe;
 
+import com.yava.tictactoe.model.Player;
+
 import static org.junit.Assert.*;
 
-/**
- * Created by Yaroslav on 9/4/2018.
- */
 public class PlayerTest {
     @org.junit.Test
     public void getName() throws Exception {
         final String actualValue = "TestName";
-        final String expectedValue = actualValue;
 
         Player player = new Player(actualValue, null);
 
-        assertEquals(expectedValue, player.getName());
+        assertEquals(actualValue, player.getName());
     }
 
     @org.junit.Test

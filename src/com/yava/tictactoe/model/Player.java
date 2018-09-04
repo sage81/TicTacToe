@@ -1,8 +1,5 @@
 package com.yava.tictactoe.model;
 
-/**
- * Created by Yaroslav on 9/4/2018.
- */
 public class Player {
 
     private final String name;
